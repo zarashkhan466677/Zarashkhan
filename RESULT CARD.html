@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Result Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f2f4f8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .result-card {
+            background: #ffffff;
+            width: 350px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+
+        .header h2 {
+            margin: 0;
+            color: #2c3e50;
+        }
+
+        .student-info {
+            margin: 15px 0;
+            font-size: 14px;
+        }
+
+        .student-info p {
+            margin: 5px 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        table th, table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        table th {
+            background: #f7f7f7;
+        }
+
+        .summary {
+            margin-top: 15px;
+            font-size: 14px;
+        }
+
+        .summary p {
+            margin: 6px 0;
+        }
+
+        .result {
+            text-align: center;
+            margin-top: 15px;
+            font-weight: bold;
+            color: green;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="result-card">
+        <div class="header">
+            <h2>Result Card</h2>
+            <p>Academic Year 2024–25</p>
+        </div>
+
+        <div class="student-info">
+            <p><strong>Name:</strong> ali hasan</p>
+            <p><strong>Roll No:</strong> 23</p>
+            <p><strong>Class:</strong> 10th</p>
+        </div>
+
+        <table>
+            <tr>
+                <th>Subject</th>
+                <th>Marks</th>
+            </tr>
+            <tr>
+                <td>Math</td>
+                <td>85</td>
+            </tr>
+            <tr>
+                <td>Science</td>
+                <td>78</td>
+            </tr>
+            <tr>
+                <td>English</td>
+                <td>88</td>
+            </tr>
+            <tr>
+                <td>Social Studies</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>Computer</td>
+                <td>90</td>
+            </tr>
+        </table>
+
+        <div class="summary">
+            <p><strong>Total Marks:</strong> 421 / 500</p>
+            <p><strong>Percentage:</strong> 84.2%</p>
+        </div>
+
+        <div class="result">
+            PASS ✅
+        </div>
+    </div>
+
+</body>
+</html>
